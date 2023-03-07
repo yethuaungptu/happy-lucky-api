@@ -1,0 +1,39 @@
+{
+  "name": "happy-lucky-api",
+  "version": "1.0.0",
+  "description": "API server for happy lucky admin panel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "NODE_ENV=dev nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yethuaungptu/happy-lucky-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yethuaungptu/happy-lucky-api/issues"
+  },
+  "homepage": "https://github.com/yethuaungptu/happy-lucky-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^6.15.0",
+    "i18n": "^0.15.1",
+    "joi": "^17.8.3",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.0",
+    "mongoose-unique-validator": "^3.1.0",
+    "morgan": "^1.10.0",
+    "rotating-file-stream": "^3.1.0",
+    "winston": "^3.8.2"
+  }
+}
